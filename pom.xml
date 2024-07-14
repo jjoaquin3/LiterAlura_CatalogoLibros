@@ -12,7 +12,7 @@
 	<artifactId>literalura</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>literalura</name>
-	<description>Desarrolló de un Catálogo de Libros que ofrezca interacción textual (vía consola) con los usuarios, proporcionando al menos 5 opciones de interacción. Los libros se buscarán a través de una API específica. </description>
+	<description>Desarrollo de un Catálogo de Libros que ofrezca interacción textual (vía consola) con los usuarios, proporcionando al menos 5 opciones de interacción. Los libros se buscarán a través de una API específica.</description>
 	<url/>
 	<licenses>
 		<license/>
