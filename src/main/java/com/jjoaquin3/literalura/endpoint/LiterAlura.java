@@ -36,7 +36,7 @@ public class LiterAlura
                 System.out.println("3. Listar Libros Registrados");
                 System.out.println("4. Listar Autores Registrados");
                 System.out.println("5. Listar Autores vivos en determinado año");
-                System.out.println("6. Listar Libros por idioma");
+                System.out.println("6. Listar Libros por Idioma");
                 System.out.println("7. Salir");
                 System.out.println("**********************************************");
                 System.out.print("Opción: ");
@@ -87,7 +87,8 @@ public class LiterAlura
                         1. es
                         2. en
                         3. fr
-                        4. regresar:\s""";
+                        4. regresar
+                        Opcion:\s""";
                 int selection = this.scannerNextInt(scanner,sms);
                 switch (selection)
                 {
