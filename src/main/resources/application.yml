@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: literalura
+
+  main:
+    banner-mode: off
+
+  output:
+    ansi:
+      enabled: ALWAYS
+
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+
+    properties:
+      hibernate:
+        default_schema:  "\"LITERALURA\""
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+  datasource:
+    url: jdbc:postgresql://127.0.0.1:5432/ALURA_TEST
+    username: user_Test
+    password: password_Test
+    driver-class-name: org.postgresql.Driver
+
+server:
+  port: 8080

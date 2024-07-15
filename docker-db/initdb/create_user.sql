@@ -1,8 +1,9 @@
 -- Crear el usuario user_Test con contraseña passwort_Test
-CREATE USER "user_Test" WITH PASSWORD 'passwort_Test';
+CREATE USER "user_Test" WITH PASSWORD 'password_Test';
 
 -- Dar permisos al usuario user_Test sobre el esquema LITERALURA
 GRANT USAGE ON SCHEMA "LITERALURA" TO "user_Test";
+GRANT CREATE ON SCHEMA "LITERALURA" TO "user_Test";
 GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA "LITERALURA" TO "user_Test";
 GRANT ALL PRIVILEGES ON ALL SEQUENCES IN SCHEMA "LITERALURA" TO "user_Test";
 
