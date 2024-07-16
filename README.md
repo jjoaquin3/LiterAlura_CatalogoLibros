@@ -28,7 +28,7 @@ El proyecto nace como un forma de demostrar la capacidades de elegir las libreri
 | Maven Project 4.0.0         | https://maven.apache.org/            |
 | Project lombok 1.18.30      | https://projectlombok.org/setup/maven         |
 | ModelMapper 3.2.0           | https://modelmapper.org         | |
-| GitHub                      | https://github.com/jjoaquin3/ConversorMonedas |
+| GitHub                      | https://github.com/jjoaquin3 |
 
 Estos serian los principales, las otras libreria se pueden encontrar en pom.xml del API
 
